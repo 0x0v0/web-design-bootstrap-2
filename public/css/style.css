@@ -1,0 +1,427 @@
+/* <!-- 
+  Created by Muhammad Faiz
+  Github: https://0x0v0.github.io/
+
+  ID: Jika Ingin Memakai Setidaknya Cantumkan Sumber dan Forked Berkas Aslinya
+  dan Jangan Lupa Follow Github Saya + Beri Bintang ^^
+
+  EN: If you want to use it, at least include the original sour.ce and forked files
+   and Don't Forget to Follow My Github + Touch the Star. ^^
+--> */
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Edu+NSW+ACT+Foundation&family=Josefin+Sans:wght@200;400&family=Mali&family=Nanum+Pen+Script&display=swap");
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.pintext {
+  font-size: 16px;
+}
+
+.secondText {
+  font-family: "Edu NSW ACT Foundation";
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.banner {
+  font-family: "Mali";
+  background: rgb(245, 137, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 137, 228, 1) 0%,
+    rgba(181, 128, 255, 1) 50%,
+    rgba(142, 236, 255, 1) 100%
+  );
+}
+
+.banner a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+.banner a:hover {
+  color: white;
+}
+
+.logo {
+  font-family: "Josefin Sans";
+  font-size: 25px;
+}
+
+.logo:hover {
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  color: #0f172a;
+}
+
+.nav-link:hover {
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.socmedIcon {
+  margin-left: 20%;
+}
+
+.exam {
+  color: #0f172a;
+  font-size: 20px;
+}
+
+.bgetstarted {
+  background-color: #1a1a1a;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+}
+
+.bgetstarted:hover {
+  background: rgb(245, 137, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 137, 228, 1) 0%,
+    rgba(181, 128, 255, 1) 50%,
+    rgba(142, 236, 255, 1) 100%
+  );
+  color: #ccfbf1;
+}
+
+.bgetstarted1 {
+  background-color: #1a1a1a;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.services {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.blogcard {
+  text-decoration: none;
+  color: #4f46e5;
+}
+
+.blogcard:hover {
+  color: #0f172a;
+}
+
+.image2 {
+  background-image: url("../../assets/img/tokenRef.webp");
+  background-size: 30%;
+  background-attachment: scroll;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.image2 h2 {
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Josefin Sans";
+  font-weight: 500;
+}
+
+.vision {
+  background-color: #0f172a;
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.playvid {
+  color: #0f172a;
+}
+
+.playvid h1 {
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.padmedia {
+  padding-top: 60px;
+}
+
+.signup {
+  margin-top: 80px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+.signup span {
+  padding-top: 30px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.signup span a {
+  text-decoration: none;
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.form-label {
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.endlogin {
+  text-decoration: none;
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.signinsosmed {
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.butlog {
+  background: rgb(245, 137, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 137, 228, 1) 0%,
+    rgba(181, 128, 255, 1) 50%,
+    rgba(142, 236, 255, 1) 100%
+  );
+  color: white;
+  border: none;
+}
+
+.butlog:hover {
+  color: #0f172a;
+}
+
+.inputext {
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.gbanner {
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}
+
+.successlog {
+  width: 30rem;
+}
+
+.successlog a {
+  background: #b359c9;
+  background: linear-gradient(to right, #b359c9 0%, #248ead 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.bgrtables {
+  background-image: url("../../assets/img/Backgroun_con_Vieta.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.datatab {
+  padding-top: 90px;
+}
+
+.tablecolor {
+  background: rgb(245, 137, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 137, 228, 1) 0%,
+    rgba(181, 128, 255, 1) 50%,
+    rgba(142, 236, 255, 1) 100%
+  );
+
+  border: 1px solid black;
+}
+
+.tcolor {
+  color: white;
+}
+
+.bgsent {
+  color: white;
+}
+
+.bgsent h1 {
+  font-family: Mali;
+}
+
+.bgapp {
+  background-color: #0b0e13;
+  color: white;
+}
+
+.bgfooter {
+  background: rgb(245, 137, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 137, 228, 1) 0%,
+    rgba(181, 128, 255, 1) 50%,
+    rgba(142, 236, 255, 1) 100%
+  );
+  font-family: "Mali";
+  font-weight: 100;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+@media (max-width: 299px) {
+  .banner a p {
+    font-size: 8px;
+  }
+
+  .d-mobile {
+    display: block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    column-count: 4;
+    column-gap: 30px;
+    padding-top: 20%;
+  }
+
+  .logo {
+    font-family: "Josefin Sans";
+    font-size: 15px;
+  }
+
+  .nav-link {
+    color: #0f172a;
+    font-size: 10px;
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .dropdown-menu {
+    font-size: 10px;
+  }
+
+  .bgetstarted {
+    font-size: 7px;
+    height: 30px;
+    width: 70px;
+  }
+
+  .bgetstarted1 {
+    font-size: 7px;
+    height: 30px;
+    width: 70px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .landingtext h1 {
+    font-size: 15px;
+  }
+
+  .landingtext h3 {
+    font-size: 12px;
+  }
+
+  .services h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .services p {
+    font-size: 12px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+  .d-mobile {
+    display: block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    column-count: 4;
+    column-gap: 40px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner a {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 991.5px) and (max-width: 1399.5px) {
+  .hr {
+    display: none;
+  }
+}
